@@ -23,7 +23,7 @@ module TB_toplevel;
     );
 
 
-    initial $readmemh("/home/tudentstudent/DyNNSoC/verif/tests/mvu_smoke/artefacts/main.hex", dut.imem.bram.mem);  // load the program into ROM
+    initial $readmemh("/home/student/DyNNSoC/verif/tests/mvu_smoke/artefacts/main.hex", dut.imem.bram.mem);  // load the program into ROM
 
     initial gpio_in0 = $urandom; // provide random value to the switches (can be used as an entropy source internally)
 

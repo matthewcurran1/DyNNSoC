@@ -22,7 +22,7 @@ module TB_toplevel;
     );
 
     // Load ROM with firmware
-    initial $readmemh("/home/tudentstudent/DyNNSoC/power/artefacts/main.hex", dut.imem.bram.mem);  // load the program into ROM
+    initial $readmemh("/home/student/DyNNSoC/power/artefacts/main.hex", dut.imem.bram.mem);  // load the program into ROM
 
     // Clock generation
     initial begin

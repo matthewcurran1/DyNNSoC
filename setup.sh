@@ -7,4 +7,4 @@ export SOCROOT=$SCRIPT_DIR
 PATH=$PATH:/tools/Xilinx/2025.1/Vivado/bin/
 
 # Add RISCV tools to PATH
-PATH=$PATH:/home/tudentstudent/riscv/bin/
+PATH=$PATH:$HOME/riscv/bin/
